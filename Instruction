@@ -1,0 +1,7 @@
+Installation
+Go to the Releases section of this GitHub repository.
+Download AI.exe.
+Run AI.exe and follow the on-screen instructions.
+The program will automatically handle the required setup, model installation, Ollama/Open WebUI configuration, and shortcut creation.
+
+Windows: If Windows Defender/SmartScreen shows a warning, verify that you downloaded AI.exe from this repository's official Releases page before allowing it to run. You can disble defender temporarily and re-enable it after completing installation.
