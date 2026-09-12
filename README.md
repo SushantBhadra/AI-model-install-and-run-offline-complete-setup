@@ -79,8 +79,6 @@ The program follows a simple workflow:
                   └─────────────────────┘
 ```
 
----
-
 # 🖥️ Hardware Detection
 
 Before recommending models, the application reads the host PC's available hardware information.
@@ -345,40 +343,7 @@ A model marked `Recommended` should therefore be understood as **a compatibility
 
 # 🛠️ Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-```
-
-Enter the project directory:
-
-```bash
-cd YOUR_REPOSITORY
-```
-
-Install the Python dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the program:
-
-```bash
-python main.py
-```
-
-> Replace `main.py` with the project's actual entry-point filename if it differs.
-
----
-
-# ▶️ Usage
-
-Start the application:
-
-```bash
-python main.py
+Just download form release section and run.
 ```
 
 The program will then:
@@ -427,31 +392,7 @@ This allows the program to function as both an **initial setup wizard** and a **
 
 ---
 
-# 🧩 Project Structure
 
-A typical project structure may look like:
-
-```text
-local-ai-model-manager/
-│
-├── main.py
-├── requirements.txt
-├── README.md
-│
-├── models/
-│   └── ...
-│
-├── config/
-│   └── ...
-│
-├── utils/
-│   └── ...
-│
-└── scripts/
-    └── ...
-```
-
-The actual structure may differ depending on the implementation.
 
 ---
 
@@ -638,48 +579,11 @@ Check that:
 4. Required ports are available.
 5. The local firewall is not blocking the service.
 
----
 
-# 🤝 Contributing
-
-Contributions are welcome.
-
-Possible areas for improvement include:
-
-* Additional model sources
-* Better hardware detection
-* Improved model recommendation algorithms
-* More operating-system support
-* Better download error handling
-* Model benchmarking
-* Automatic GPU detection
-* More detailed resource estimation
-* Improved UI/CLI experience
-* Additional WebUI integrations
-
-To contribute:
-
-```bash
-git fork
-git clone <your-fork>
-git checkout -b feature/my-feature
-```
 
 Make your changes, test them, and submit a pull request.
 
 ---
-
-# 📜 License
-
-Add the project's license here.
-
-For example:
-
-```text
-MIT License
-```
-
-If this project uses a different license, replace the above accordingly.
 
 ---
 
@@ -697,36 +601,4 @@ This project builds upon the local AI ecosystem provided by:
 
 The ultimate goal of this project is to turn local AI deployment from a complicated multi-step process into a simple workflow:
 
-```text
-┌──────────────────────────────┐
-│      LOCAL AI MANAGER        │
-├──────────────────────────────┤
-│                              │
-│  🖥 Detect PC Hardware       │
-│                              │
-│  🔍 Find AI Models           │
-│                              │
-│  ⭐ Recommend Models         │
-│                              │
-│  📥 Download Models          │
-│                              │
-│  🦙 Configure Ollama         │
-│                              │
-│  🌐 Configure Open WebUI     │
-│                              │
-│  🔗 Create Shortcut          │
-│                              │
-│  🚀 Start Local AI           │
-│                              │
-└──────────────────────────────┘
-```
-
-**Choose a model → Let the program handle the setup → Start chatting locally.**
-
----
-
-## 📌 Disclaimer
-
-This project is intended to simplify local AI setup and model management. Model availability, hardware compatibility, third-party repositories, Ollama behavior, and Open WebUI functionality may change over time.
-
-Always verify third-party downloads and ensure that your system has adequate hardware resources before installing large AI models.
+`
